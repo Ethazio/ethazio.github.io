@@ -52,3 +52,19 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    new Typed('#typed-text', {
+      strings: ["Hi, I'm Axel"],  // Le texte à taper
+      typeSpeed: 120,  // Vitesse de frappe (en millisecondes)
+      backSpeed: 0,  // Vitesse de suppression (en millisecondes)
+      showCursor: true,
+      cursorChar: '_',
+      cursorBlink: true,
+      cursorBlinkSpeed: 3900
+        // Afficher ou non le curseur
+    //   onComplete: (self) => {
+    //     self.cursor.remove();  // Supprime le curseur après la fin de la frappe
+    //   }
+    });
+  });
