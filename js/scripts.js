@@ -55,7 +55,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 document.addEventListener("DOMContentLoaded", function() {
     new Typed('#typed-text', {
-      strings: ["Hi, I'm Axel"],  // Le texte à taper
+      strings: ["Axel Cazorla"],  // Le texte à taper
       typeSpeed: 120,  // Vitesse de frappe (en millisecondes)
       backSpeed: 0,  // Vitesse de suppression (en millisecondes)
       showCursor: true,
