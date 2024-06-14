@@ -68,3 +68,14 @@ document.addEventListener("DOMContentLoaded", function() {
     //   }
     });
   });
+
+
+window.addEventListener('scroll', function() {
+    const imageContainer = document.querySelector('.image-container');
+    const scrollPosition = window.scrollY;
+    const windowHeight = window.innerHeight;
+
+    if (scrollPosition <= windowHeight) {
+        imageContainer.style.clipPath = `inset(0 0 ${scrollPosition}px 0)`;
+    }
+});
